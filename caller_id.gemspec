@@ -4,8 +4,8 @@ require File.expand_path('../lib/caller_id/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Ben Ellis"]
   gem.email         = ["bellis@on-site.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby wrapper for OpenCNAM}
+  gem.summary       = %q{Do reverse phone lookups via OpenCNAM ( http://www.opencnam.com/ )}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
